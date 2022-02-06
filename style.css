@@ -1,0 +1,29 @@
+body {
+  box-sizing: border-box;
+
+  display: grid;
+  place-items: center;
+  height: 50vh;
+  background: #222;
+  color: white;
+  font-size: 2rem;
+}
+
+span {
+  font-size: 2rem;
+  background: lightyellow;
+  padding: 0.5rem 1rem;
+  color: black;
+  border-radius: 1rem;
+  margin: 5px;
+}
+
+button {
+  border: none;
+  border-radius: 1rem;
+  padding: 2rem 3.5rem;
+  font-size: 2rem;
+
+  background: lightgreen;
+  cursor: pointer;
+}
